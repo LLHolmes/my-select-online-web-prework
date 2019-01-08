@@ -12,7 +12,7 @@ def my_select(collection)
   select_items
 end
 
-nums = [1, 2, 3, 4]
-my_select(nums) do |num|
-  num.even?
-end
+#nums = [1, 2, 3, 4]
+#my_select(nums) do |num|
+#  num.even?
+#end
