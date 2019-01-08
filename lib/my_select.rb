@@ -9,6 +9,7 @@ def my_select(collection)
     select_items << item if yield(item) == true
     puts select_items
   end
+  select_items
 end
 
 nums = [1, 2, 3, 4]
