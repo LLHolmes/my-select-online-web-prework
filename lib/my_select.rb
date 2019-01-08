@@ -1,13 +1,7 @@
 def my_select(collection)
   select_items = []
   collection.each do |item|
-#    if yield(item) == true
-#      select_items << item
-#    end
-    puts item
-    puts yield(item)
     select_items << item if yield(item) == true
-    puts select_items
   end
   select_items
 end
